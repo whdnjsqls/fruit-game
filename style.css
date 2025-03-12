@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(16, 131, 131);
+    margin: auto;  
+    position: relative;
+}
+.fruit-box{
+    width: 120px;
+    height: 70px;
+    background-color: rgb(115, 64, 16);
+    position: absolute;
+    top: 75%;
+    /* left: 0%; */
+    left: calc(50% - 50px);
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fruit-speed, .timer{
+    text-align: center;
+}
+.store{
+    width: 80px;
+    position: absolute;
+    top: 64%;
+    left: 79%;
+}
+.store-greet{
+    width: 121px;
+    position: absolute;
+    top: 44%;
+    left: 75%;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+}
+
+
+.fruit {
+    position: absolute;
+    width: 30px;
+    height: 34px;
+    background-image: url(./apple.png);
+    background-size: cover;
+}
+/* .fruit-box img{
+    width: 100px;
+    position: absolute;
+    top: -80px;
+    left: 20px;
+    display: none; 
+} */
+
+.fruit-box img.on{   
+    display: block;
+}
